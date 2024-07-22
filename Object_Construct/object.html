@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="menuMakan">
+        <label for="menu-makanan">Choose a food:</label>
+        <select name="list-menu" id="makanan">
+            <option value="nasiGoreng">Nasi Goreng - 15000</option>
+            <option value="nasiBakar">Nasi Bakar - 20000</option>
+            <option value="cumiBakar">Cumi Bakar - 25000</option>
+            <option value="gorengan">Bakwan - 5000</option>
+        </select>
+    </div>
+    <br>
+    <div class="transaksi">
+        <label for="jumlah">Masukkan Jumlah:<br></label>
+        <input type="number" value="1" class="jumlah" min="1">
+        <br><br>
+        <label for="total">Total Harga:<br></label>
+        <input type="text" value="" class="total" readonly>
+        <br><br>
+        <label for="bayar">Masukkan Uang Anda:<br></label>
+        <input type="text" value="" class="bayar">
+        <br><br>
+        <label for="change">Kembalian Anda:<br></label>
+        <input type="text" value="" class="kembalian" readonly>
+        <br><br>
+        <button id="bayarButton">Bayar</button>
+    </div>
+    <script src="object.js"></script>
+</body>
+</html>
