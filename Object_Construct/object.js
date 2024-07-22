@@ -38,4 +38,6 @@ document.getElementById("makanan").addEventListener("change", calculateTotal);
 document.querySelector(".jumlah").addEventListener("input", calculateTotal);
 
 // Initial calculation of total price
-calculateTotal();
+calculateTotal(); 
+
+
